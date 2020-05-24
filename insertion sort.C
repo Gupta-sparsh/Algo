@@ -1,9 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>
 int main()
 {
-	 clrscr();
 	 int arrSize,*arr,i,j,num;
 	 printf("Insertion Sort Program\n");
 	 printf("Enter the size of array : ");
@@ -31,7 +29,6 @@ int main()
 	{
 		printf("%d\n",*(arr + i));
 	}
-	 getch();
 	 return 0;
 }
 
